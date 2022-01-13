@@ -1,0 +1,117 @@
+
+
+#marseille {
+    display: flex;
+    flex-direction:column ;
+    margin-top: 2%;
+    width: auto;
+    margin: 1%;
+}
+
+#point_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.section2 {
+    display: flex;
+    background:#F2F2F2;
+    width: 100%;
+    border-radius: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#F2F2F2;
+    margin-top: 2%;
+    width:100%;        
+    border-radius: 20px;
+}
+
+
+.menu_filtres {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+#section4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% ;
+    border-radius:20px;
+    justify-content: space-between;
+    
+}
+
+
+.vignette_big {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: white solid 5px;
+    background-color: white;
+    width: 45%;
+    border-radius: 18px ; 
+    cursor: pointer;
+    order: 3;
+    margin-top: 1%;
+}
+
+#group_act1 {
+    display:flex;
+    flex-direction: column;  
+    width: 45%;
+    justify-content: space-around;
+    order: 1;
+    
+}
+
+.vignette_ilesf img {
+   border-radius: 18px 18px 0px 0px;
+    width: 100%;
+    height: 158px;
+    object-fit: cover;
+}
+
+
+
+.vignette_fortp img {
+    border-radius: 18px 18px 0px 0px;
+    width: 100%;
+    height: 167px;
+    object-fit: cover;
+}
+
+#group_act2 {
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-between;
+    order: 4;
+}
+
+
+.vignette_small {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: white solid 5px;
+    background-color: white;
+    border-radius: 18px ; 
+    cursor: pointer;
+    margin-top: 7%;
+}
+footer {
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  background-color: rgb(247, 243, 243);
+  font-family: "Raleway";
+  padding-bottom: 1%;
+}
