@@ -86,7 +86,7 @@ nav a {
 }
 
 #search_desktop {
-    visibility: hidden;
+    display: none;
     margin-top: revert;
     width: 0;
 }
@@ -98,7 +98,6 @@ nav a {
     position: relative;
     justify-content: center;
     width: 40px;
-    height: 50%;
 }
 
 .title_h1_p {
