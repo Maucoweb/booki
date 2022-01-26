@@ -44,7 +44,7 @@ header {
 
 }
 
-#logo_href {
+#logo_accueil {
     display: flex;
     margin-left: 2%;
 }
@@ -67,8 +67,8 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color:rgb(116, 107, 107);
-    font-weight: 700;
+    color:black;
+    font-weight: 400;
 }
 nav a:hover {
     color: #0065FC;
@@ -83,11 +83,7 @@ nav a:hover {
     margin-left: 2%;
 }
 
-/* #logo_geo {
-    height: 40px;
-    width: auto;
-    border-radius: 8px 0px 0px 8px;
-} */
+
 
 .fa-map-marker-alt {
 background-color: #F2F2F2;
@@ -110,7 +106,7 @@ font-family: 'Raleway', 'amblelight_italic';
 
 #searchbar_geo {
     display: flex;
-    
+    cursor: pointer;
 }
 
 #search_button {
@@ -120,14 +116,16 @@ font-family: 'Raleway', 'amblelight_italic';
     font-family: 'Raleway';
     border-radius: 0px 8px 8px 0px ;
     border-width: 0px;
+    cursor: pointer;
 }
+
 
 #search_desktop {
     visibility: visible;
     margin: 0;
     display: flex;
     height: 0;
-    cursor: pointer;
+    
 }
 
 #search_smartphone {
@@ -214,7 +212,7 @@ font-family: 'Raleway', 'amblelight_italic';
 
 #point_info h3 {
 
-    font-size: 0.8em;
+    font-size: 12px;
     padding-bottom: 40px;
     font-weight: 400;
 }
@@ -247,16 +245,16 @@ font-family: 'Raleway', 'amblelight_italic';
 
 .section2 h3 {
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 25px;
     width: 100%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-bottom: 2%;
     padding-top: 2%;
 }
 
 .section2 h4 {
     width: 100%;
-    margin-left: 2%;
+    margin-left: 4%;
     font-weight: 700;
 }
 
@@ -279,7 +277,7 @@ font-family: 'Raleway', 'amblelight_italic';
 }
 
 .info_heb {
-    font-size: 0.8em;
+    font-size: 14px;
     padding-bottom:15px;
     margin-left: 3%;
 }
@@ -299,7 +297,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .section3 h3 {
     font-weight: 700;
     width: 100%;
-    font-size: 1.8em;
+    font-size: 25px;
     margin-left: 3%;
     margin-bottom: 3%;
     padding-top: 2%;
@@ -341,7 +339,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .info_pop {
     display: flex;
     flex-direction: column;
-    font-size: 0.8em;
+    font-size: 14px;
     margin: 2%;
     justify-content: space-between;
 }
@@ -363,7 +361,7 @@ font-family: 'Raleway', 'amblelight_italic';
 }
 
 #act_marseille h3{
-    font-size: 1.8em;
+    font-size: 25px;
 }
 
 #section4 {
@@ -389,7 +387,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .vignette_big img {
     border-radius: 18px 18px 0px 0px;
     width: 100%;
-    height: 400px;
+    height: 30vw;
     object-fit: cover;
 }
 
@@ -415,7 +413,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .vignette_fortp img {
     border-radius: 18px 18px 0px 0px;
     width: 100%;
-    height: 195px;
+    height: 14vw;
     object-fit: cover;
 }
 
@@ -432,7 +430,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .vignette_ilesf img {
    border-radius: 18px 18px 0px 0px;
     width: 100%;
-    height: 138px;
+    height: 12vw;
     object-fit: cover;
 }
 
@@ -461,7 +459,7 @@ font-family: 'Raleway', 'amblelight_italic';
 .vignette_small img {
     border-radius: 18px 18px 0px 0px;
     width: 100%;
-    height: 167px;
+    height: 13vw;
     object-fit: cover;
 }
 

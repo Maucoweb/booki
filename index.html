@@ -19,18 +19,19 @@
 
         <header>
 
-            <div id="logo_href">
+            <div id="logo_accueil">
                 <img id="logo_booki" src="Images/logo/Booki.png" alt="Logo Booki bleu sur fond blanc">
                 <nav>
                     <div class="accueil_desktop" id="accueil_phone">
 
                         <ul>
-                            <li class="li_heb"><a id="href_heb" href="#marseille">Hébergements</a></li>
+                            <li class="li_heb"><a id="href_heb" href="#heb_h3">Hébergements</a></li>
                             <li class="li_act"><a id="href_act" href="#act_marseille">Activités</a></li>
                         </ul>
                     </div>
 
                 </nav>
+            </div>
         </header>
         <section class="section_1">
             <div class="search_viewsm">
@@ -43,10 +44,9 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="text" id="searchbar" placeholder="Marseille, France..">
                     <button id="search_button">
-                        <p id="search_desktop">Rechercher</p>
+                        <span id="search_desktop">Rechercher </span>
                         <i id="search_smartphone" class="fas fa-search"></i>
                     </button>
-
                 </div>
             </div>
 
@@ -96,17 +96,16 @@
             <div id="point_info">
                 <p>i</p>
 
-                <h3>Plus de 500 logements disponibles dans cette ville</h3>
+                <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
             </div>
 
         </section>
 
+        <!--Hébergements à Marseille-->
+
         <main id="marseille">
-
-            <!--Hébergements à Marseille-->
-
             <section class="section2">
-                <h3><strong>Hébergements à Marseille</strong></h3>
+                <h3 id="heb_h3"><strong>Hébergements à Marseille</strong></h3>
                 <article class="vignette">
                     <div class="photo_heb">
                         <picture>
@@ -367,6 +366,9 @@
 
             </section>
         </aside>
+
+        <!--Footer "A propos" "Nos hébergements" "Assistance"-->
+
         <footer>
             <div class="lst">
                 <h3>A propos</h3>
@@ -378,7 +380,7 @@
             </div>
 
             <div class="lst">
-                <h3>Nos hébéregements</h3>
+                <h3>Nos hébergements</h3>
                 <ul>
                     <li><a href="#"></a>Charte qualité</li>
                     <li><a href="#"></a>Soumettre votre hôtel</li>
