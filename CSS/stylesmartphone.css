@@ -194,6 +194,13 @@ nav a {
 }
 
 
+.photo_heb img {
+    border-radius:18px 18px 0px 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 40vw;
+}
+
 /* Les plus populaires */
 
 
@@ -230,6 +237,8 @@ nav a {
     box-shadow: 3px 3px 15px 2px #d9d9d9;
 
 }
+
+
 
 .section2 {
     display: flex;

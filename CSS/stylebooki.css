@@ -69,6 +69,8 @@ nav a {
     text-decoration: none;
     color:black;
     font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 nav a:hover {
     color: #0065FC;
@@ -315,17 +317,17 @@ font-family: 'Raleway', 'amblelight_italic';
     border: white solid 5px;
     background-color: white;
     border-radius: 18px ;
+    margin: auto;
     margin-bottom: 20px;
     height: 157px;
     width: 90%;
-    margin-left: 15px;
     cursor:pointer;
     box-shadow: 3px 3px 15px 2px #d9d9d9;
 
 }
 
 .photo_pop {
-    width: 50%;
+    width: 40%;
     
 }
 
@@ -342,6 +344,7 @@ font-family: 'Raleway', 'amblelight_italic';
     font-size: 14px;
     margin: 2%;
     justify-content: space-between;
+    width: 56%;
 }
 
 
