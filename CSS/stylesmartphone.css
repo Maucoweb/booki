@@ -1,3 +1,6 @@
+/* Smaprtphone view max-width:768px*/
+
+
 body {
     margin: 0;
     width: 100%;
@@ -9,7 +12,7 @@ body {
     width: 100%;
 }
 
-/* Header */
+/* Header (Logo + Nav )*/
 
 header {
     width: 100%;
@@ -29,26 +32,12 @@ header {
     margin-left: 10%;
 }
 
-.accueil_desktop{
-    display: flex;
-    width: auto;
-    
-}
+/*Nav (Hébergements Activité*/
 
-#searchbar_geo {
-    display: flex;
-    margin-top:3%;
-    justify-content: center;
-    width: 90%;
-}
 
-#searchbar {
-    border-color: rgb(243, 240, 240);
-    border-style:solid;
-    outline-width: 0;
-    width: 70%;
+.accueil_desktop a:hover {
+    border-top: none;  
 }
-
 
 nav {
     width: 100%;
@@ -65,16 +54,8 @@ nav ul {
 nav li {
     text-align: center;
     list-style: none;
-    border-bottom: solid #F2F2F2 2px;
+    border-bottom: 2px solid #F2F2F2 ;
 }
-
-nav a {
-    text-decoration: none;
-    color:black;
-    font-weight: 400;
-    font-size: 1.3em;
-}
-
 
 
 .li_heb {
@@ -82,10 +63,11 @@ nav a {
    margin: 0;
 }
 
+
 .li_heb:hover{
     color: #0065FC;
     cursor: pointer;
-    border-bottom: solid #0065FC 2px;
+    border-bottom: 2px solid #0065FC ;
     padding-bottom: 0;
 }
 
@@ -97,26 +79,40 @@ nav a {
 .li_act:hover {
     color: #0065FC;
     cursor: pointer;
-    border-bottom: solid #0065FC 2px;
+    border-bottom: 2px solid #0065FC ;
     padding-bottom: 0;
 }
 
-.accueil_desktop a:hover {
-    border-top: none;  
+/*+ Section 1  (Searchbar + Filtres)*/
+
+#searchbar_geo {
+    display: flex;
+    margin-top:3%;
+    justify-content: center;
+    width: 90%;
 }
+
+#searchbar {
+    border-color: rgb(243, 240, 240);
+    border-style:solid;
+    outline-width: 0;
+    width: 70%;
+}
+
+
+
+
+
    
 .ville_nature {
     margin-top:0;
 }
 
-.search_viewsm {
-    width: 100%;
-    
-}
+
+
 
 #search_desktop {
     display: none;
-    margin-top: revert;
     width: 0;
 }
 

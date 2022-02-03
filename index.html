@@ -15,40 +15,41 @@
 <body>
     <div class="blocpage">
 
-        <!--Accueil-->
+        <!--Logo + Accueil-->
 
         <header>
 
             <div id="logo_accueil">
                 <img id="logo_booki" src="Images/logo/Booki.png" alt="Logo Booki bleu sur fond blanc">
                 <nav>
-                    <div class="accueil_desktop" id="accueil_phone">
+                    <div class="accueil_desktop">
 
                         <ul>
-                            <li class="li_heb"><a id="href_heb" href="#heb_h3">Hébergements</a></li>
-                            <li class="li_act"><a id="href_act" href="#act_marseille">Activités</a></li>
+                            <li class="li_heb"><a href="#heb_h3">Hébergements</a></li>
+                            <li class="li_act"><a href="#act_marseille">Activités</a></li>
                         </ul>
                     </div>
 
                 </nav>
+
+                <!--Titre H1 + Searchbar-->
+
             </div>
         </header>
         <section class="section_1">
-            <div class="search_viewsm">
-                <div class="title_h1_p">
-                    <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
-                    <p class="ville_nature">En plein centre ville ou en pleine nature</p>
-                </div>
-
-                <div id="searchbar_geo">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="text" id="searchbar" placeholder="Marseille, France..">
-                    <button id="search_button">
-                        <span id="search_desktop">Rechercher </span>
-                        <i id="search_smartphone" class="fas fa-search"></i>
-                    </button>
-                </div>
+            <div class="title_h1_p">
+                <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
+                <p class="ville_nature">En plein centre ville ou en pleine nature</p>
             </div>
+            <div id="searchbar_geo">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" id="searchbar" placeholder="Marseille, France..">
+                <button id="search_button">
+                    <span id="search_desktop">Rechercher </span>
+                    <span><i id="search_smartphone" class="fas fa-search"></i></span>
+                </button>
+            </div>
+
 
             <!--Filtres-->
 
@@ -101,15 +102,20 @@
 
         </section>
 
-        <!--Hébergements à Marseille-->
+        <!-- (Main + (Section 2 + Section 3)-->
+
+        <!---Main-->
+
+        <!--Section 2 (Hébergements à Marseille)-->
 
         <main id="marseille">
             <section class="section2">
                 <h3 id="heb_h3"><strong>Hébergements à Marseille</strong></h3>
                 <article class="vignette">
                     <div class="photo_heb">
+
                         <picture>
-                            <!-- <source srcset="/media/cc0-images/surfer-240-200.jpg" media="(min-width: 800px)"> -->
+
 
                             <img src="Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="chambre lit superposé">
@@ -228,25 +234,26 @@
                     <h3>Les plus populaires</h3>
                     <i class="fas fa-chart-line"></i>
                 </div>
-
-                <article class="vignette_pop">
-                    <div class="photo_pop">
-                        <picture>
-                            <img src="Images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                alt="chambre lit superposé">
-                        </picture>
-                    </div>
-                    <div class="info_pop">
-                        <p><strong>Le Soleil du Matin</strong></p>
-
-                        <p>Nuit à partir de <strong>128€</strong></p>
-                        <div class="starsiRate">
-                            <i class="fas fa-star iRate"><i class="fas fa-star iRate"></i><i
-                                    class="fas fa-star iRate"></i><i class="fas fa-star iRate"><i
-                                        class="fas fa-star iRate"></i></i></i>
+                <a href="#" class="vignette_pop">
+                    <article>
+                        <div class="photo_pop">
+                            <picture>
+                                <img src="Images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="chambre lit superposé">
+                            </picture>
                         </div>
-                    </div>
-                </article>
+                        <div class="info_pop">
+                            <p><strong>Le Soleil du Matin</strong></p>
+
+                            <p>Nuit à partir de <strong>128€</strong></p>
+                            <div class="starsiRate">
+                                <i class="fas fa-star iRate"><i class="fas fa-star iRate"></i><i
+                                        class="fas fa-star iRate"></i><i class="fas fa-star iRate"><i
+                                            class="fas fa-star iRate"></i></i></i>
+                            </div>
+                        </div>
+                    </article>
+                </a>
                 <article class="vignette_pop">
                     <div class="photo_pop">
                         <picture>
@@ -342,12 +349,14 @@
                 <div id="group_act2">
                     <article class="vignette_small">
                         <div class="photo_small">
-                            <picture>
-                                <img src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                                    alt="chambre lit superposé">
-                            </picture>
-                            <div class="info_heb">
-                                <strong>Notre-Dame-de-la-Garde</strong>
+                            <div>
+                                <picture>
+                                    <img src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                        alt="chambre lit superposé">
+                                </picture>
+                                <div class="info_heb">
+                                    <strong>Notre-Dame-de-la-Garde</strong>
+                                </div>
                             </div>
                         </div>
                     </article>
