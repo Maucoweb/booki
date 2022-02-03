@@ -151,6 +151,10 @@
     object-fit: cover;
 }
 
+.vignette_fortp article {
+    width: 100%;
+}
+
 #group_act2 {
     display:flex;
     flex-direction: column;
@@ -162,6 +166,7 @@
 
 .vignette_small {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     border-bottom: white solid 5px;
     background-color: white;
@@ -171,6 +176,9 @@
     border: 0;
 }
 
+.vignette_small{
+    width: 100%;
+}
 
 
 .vignette_small img {

@@ -12,6 +12,11 @@ body {
     margin: 0;
 }
 
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
 img {
     object-fit: cover;
 }
@@ -284,7 +289,6 @@ font-family: 'Raleway', 'amblelight_italic';
 
 .info_heb {
     font-size: 14px;
-    padding-bottom:8px;
     margin-left: 3%;
 }
 
@@ -309,6 +313,10 @@ font-family: 'Raleway', 'amblelight_italic';
     padding-top: 2%;
 }
 
+.section3 article {
+    display: flex;
+}
+
 .titre_pop {
     display: flex;
     align-items: baseline;
@@ -320,7 +328,6 @@ font-family: 'Raleway', 'amblelight_italic';
 }
 
 .vignette_pop {
-    display: flex;
     border: white solid 5px;
     background-color: white;
     border-radius: 18px ;
@@ -330,11 +337,10 @@ font-family: 'Raleway', 'amblelight_italic';
     width: 90%;
     cursor:pointer;
     box-shadow: 3px 3px 15px 2px #d9d9d9;
-
 }
 
 .photo_pop {
-    width: 40%;
+    width: 45%;
     
 }
 
@@ -382,6 +388,7 @@ font-family: 'Raleway', 'amblelight_italic';
 }
 
 
+
 .vignette_big {
     display: flex;
     flex-wrap: wrap;
@@ -410,7 +417,6 @@ font-family: 'Raleway', 'amblelight_italic';
 }
 
 .vignette_fortp {
-    display: flex;
     flex-wrap: wrap;
     border-bottom: white solid 5px;
     background-color: white;
@@ -437,6 +443,10 @@ font-family: 'Raleway', 'amblelight_italic';
     box-shadow: 3px 3px 15px 2px #d9d9d9;
 }
 
+.vignette_ilesf article {
+    width: 100%;
+}
+
 .vignette_ilesf img {
    border-radius: 18px 18px 0px 0px;
     width: 100%;
@@ -458,12 +468,17 @@ font-family: 'Raleway', 'amblelight_italic';
 
 .vignette_small {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     border-bottom: white solid 5px;
     background-color: white;
     border-radius: 18px ; 
     cursor: pointer;
     box-shadow: 3px 3px 15px 2px #d9d9d9;
+}
+
+.vignette_small article{
+    width: 100%;
 }
 
 .vignette_small img {

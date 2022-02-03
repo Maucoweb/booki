@@ -32,7 +32,7 @@ header {
     margin-left: 10%;
 }
 
-/*Nav (Hébergements Activité*/
+/*Nav (Hébergements Activité)*/
 
 
 .accueil_desktop a:hover {
@@ -221,8 +221,12 @@ nav li {
     padding-top: 2%;
 }
 
-.vignette_pop {
+.section3 article {
     display: flex;
+}
+
+
+.vignette_pop {
     border: white solid 5px;
     background-color: white;
     border-radius: 18px ;
@@ -235,7 +239,7 @@ nav li {
 
 }
 
-
+/*Hébergements à Marseille*/
 
 .section2 {
     display: flex;
@@ -271,6 +275,8 @@ nav li {
     box-shadow: 3px 3px 15px 2px #d9d9d9;
 }
 
+/*Activités à Marseille*/
+
 #act_marseille {
     display: flex;
     width: 100%;
@@ -293,7 +299,6 @@ nav li {
     flex-wrap: wrap;
     width: 93% ;
     border-radius:20px;
-    justify-content: space-between;
     margin: auto;
 }
 
@@ -305,8 +310,12 @@ nav li {
     background-color: white;
     width: 100%;
     border-radius: 18px ; 
-    margin-top: 8%;
+    margin-bottom: 7%;
     cursor: pointer;
+}
+
+.vignette_big article {
+    width: 100%;
 }
 
 .vignette_big img {
@@ -324,7 +333,13 @@ nav li {
     background-color: white;
     border-radius: 18px ;
     cursor: pointer;
-    margin-top: 8%;
+    margin-bottom: 7%;
+    margin-top: 0%;
+    width: 100%;
+}
+
+
+.vignette_fortp article {
     width: 100%;
 }
 
@@ -348,7 +363,6 @@ nav li {
     border-bottom: white solid 5px;
     background-color: white;
     border-radius: 18px ;
-    margin-top: 7%;
     cursor: pointer;
 }
 .vignette_ilesf img {
@@ -373,6 +387,8 @@ nav li {
     width: 100%;
     justify-content: space-between;
 }
+
+/*Footer*/
 
 footer {
   display: flex;
